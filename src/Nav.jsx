@@ -12,7 +12,7 @@ function Nav(){return(
     <div id='nav' className='center'>
     <h1 className='center'>Vishal Shetty</h1>
     <img  src={pfp} id='pfp'></img><br></br>
-    <a href='https://www.linkedin.com/in/vishalshetty17/'><img src={linkedin} id='linkedin'></img></a>
+    <a href='https://www.linkedin.com/in/vishalshetty17/' target='_blank'><img src={linkedin} id='linkedin'></img></a>
     <a href="https://github.com/Vishal1720"><img src={github} id='github'></img></a>
     <a href="mailto:vishal198shetty@gmail.com"><img src={gmail} id='gmail'></img></a>
     <a href="https://codeflix2u.blogspot.com/"><img src={blogger} id='blogger'></img></a><br></br>
@@ -20,12 +20,13 @@ function Nav(){return(
     
     <img id='homeicon' src={intro}></img>
     <a href='#intro' id='homelink'>About Me</a>
-    <img id='homeicon' src={skill}></img>
-    <a href='#skills' id='skillslink'>Prog Skills</a>
+    
     <img id='homeicon' src={book}></img>
-    <a href='#education' id='educationlink'>Education</a>
+    <a href='#eduhead' id='educationlink'>Education</a>
+    <img id='homeicon' src={skill}></img>
+    <a href='#skillhead' id='skillslink'>Skills</a>
     <img id='homeicon' src={prize}></img>
-    <a href='#prizes' id='prizeslink'>Achievement</a>
+    <a href='#prizes' id='prizeslink'>Awards</a>
     </div>
     </div>
     

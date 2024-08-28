@@ -8,6 +8,9 @@
 html{
   scroll-behavior: smooth ;
 }
+body{
+  overflow-x:hidden ;
+}
 #root {
   max-width: 1280px;
   margin: 0 ;
@@ -18,7 +21,8 @@ html{
   font-style: normal;
 }
 #nav{
-  width: 20vw;
+  max-width: 19vw;
+  min-width:19vw;
   height:100vh;
 position: fixed;
 top:0;
@@ -52,14 +56,18 @@ height:42px;
 }
 
 .subcomponent{
-  margin-left:21.5VW;
-  width: 80VW;
+  margin-left:20VW;
+  max-width: 80VW;
+  min-width: 80vw;
   min-height:40vh;
 }
-#intro{
-  background-color: #34312D;
+#intro,#skills{
+  /* background-color: #34312D; */
+  background-color: #001A23;
+  margin-top:0px;
 }
-#education{
+
+#education,#prizes{
   background-color: #F3F3F4;
   color:black;
 }
@@ -70,7 +78,7 @@ height:42px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size:1.9rem;
+  font-size:1.8rem;
   padding:20px;
 }
 #tex{
@@ -84,7 +92,7 @@ height:42px;
   text-align: center;
 }
 #homeicon{
-  width:35px;
+  width:2rem;
   margin-left: 60px;
   margin-top:13px;
 }
@@ -102,6 +110,158 @@ margin-left:0;
   /* border: 2px solid white; */
   width: 76%;
   padding:0px;
-  margin-left:3%;
+
   margin-top:2%;
+}
+
+#skillimg{
+  width:30%;
+}
+#education{
+  display: flex;
+}
+#studyingboy{
+  margin-left:6%;
+  width: 25rem;
+
+}
+#eduhead{
+  margin-top:0%;font-size:64px;
+  font-weight:20px;
+  color: #F3F3F4;
+  text-shadow: 2px 2px 2px black;
+  width:80vw;
+}
+table{
+  margin: auto ;
+  margin-top:4%;
+  margin-left:7%;
+}
+tr,td,th,table{
+  border: 3px solid rgb(236, 234, 234);
+  border-collapse: collapse;
+}
+td,th{
+  width: 190px;
+  height: 90px;
+  text-align: center;
+  padding: 12px;
+  font-size: 33px;
+}
+th{
+  background-color: rgb(33, 33, 52);
+  color: aliceblue;
+  
+}
+td{
+ color:antiquewhite;
+  background-color: rgba(63, 63, 80, 0.96);
+}
+#introhead,#skills{
+  margin-top: 0%;
+}
+#education,#prizes,#eduhead{
+  background-color: #7a81ab;
+}
+
+.marginplease{
+  margin-left: 20vw;
+}
+
+input[type="range"]
+{
+  border:2px solid black;
+  border-radius:10px;
+}
+
+#skills{
+display: flex;
+}
+#skillranges{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  align-items: center;
+  font-size:1.5rem;
+}
+
+
+/* below code for range is from freefrontend website */
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
+
+input[type="range"] { 
+  margin: auto;
+  -webkit-appearance: none;
+  appearance: none;
+  position: relative;
+  overflow: hidden;
+  height: 20px;
+  width: 200px;
+  cursor: pointer;
+  border-radius: 10px; /* iOS */
+}
+
+::-webkit-slider-runnable-track {
+  background: #ddd;
+  
+}
+
+::-webkit-slider-thumb {
+  -webkit-appearance: none;
+   width: 0px; 
+  height: 20px; 
+  appearance: none;
+  background: #fff;
+  box-shadow: -200px 0 0 200px dodgerblue; /* 2 */
+  border: 2px solid #999; /* 1 */
+}
+
+::-moz-range-track {
+  height: 40px;
+  background: #ddd;
+}
+
+::-moz-range-thumb {
+  background: #fff;
+  height: 40px;
+  width: 20px; /* 1 */
+  border: 3px solid #999; /* 1 */
+  border-radius: 0 !important;
+  box-shadow: -200px 0 0 200px dodgerblue;
+  box-sizing: border-box;
+}
+
+::-ms-fill-lower { 
+  background: dodgerblue;
+}
+
+::-ms-thumb { 
+  background: #fff;
+  border: 2px solid #999; /* 1 */
+  height: 40px;
+  width: 20px; /* 1 */
+  box-sizing: border-box;
+}
+
+::-ms-ticks-after { 
+  display: none; 
+}
+
+::-ms-ticks-before { 
+  display: none; 
+}
+
+::-ms-track { 
+  background: #ddd;
+  color: transparent;
+  height: 40px;
+  border: none;
+}
+
+::-ms-tooltip { 
+  display: none;
 }
