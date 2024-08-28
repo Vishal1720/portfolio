@@ -26,7 +26,7 @@ function Nav(){return(
     <img id='homeicon' src={skill}></img>
     <a href='#skillhead' id='skillslink'>Skills</a>
     <img id='homeicon' src={prize}></img>
-    <a href='#prizes' id='prizeslink'>Awards</a>
+    <a href='#prizehead' id='prizeslink'>Awards</a>
     </div>
     </div>
     
