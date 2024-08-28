@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hanunoo&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Noto Sans Hanunoo", sans-serif;
+}
+html{
+  scroll-behavior: smooth ;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 ;
+  padding: 0;
+  
+  font-family: "Noto Sans Hanunoo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#nav{
+  width: 20vw;
+  height:100vh;
+position: fixed;
+top:0;
+  /* background-color:#14110F; */
+  background-color: #2E1F27;
+}
+.center{
+  text-align: center;
+}
+h1{
+  margin-top:1vw;
+}
+#pfp{
+  margin-top:20px;
+  width:166px;
+  height:166px;
+  border-radius: 67%;
+  border: 0.9px solid black;
+  
+  
+}
+
+#linkedin,#github,#gmail,#blogger{
+  margin:5px;
+  width: 50px;
+  height: 50px;
+}
+
+#gmail{
+height:42px;
+}
+
+.subcomponent{
+  margin-left:20VW;
+  width: 80VW;
+  min-height:40vh;
+}
+#intro{
+  background-color: #34312D;
+}
+#education{
+  background-color: #F3F3F4;
+  color:black;
+}
+#char{
+  width:500px;
+}
+#about-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:1.9rem;
+  padding:20px;
+}
+#tex{
+  align-items: center;
+  justify-content: center;
+}
+
+#introhead{
+  font-size: 50px;
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+}
+#homeicon{
+  width:35px;
+  margin-left: 60px;
+  margin-top:13px;
+}
+
+#homelink,#skillslink,#educationlink,#prizeslink{
+
+  font-size:1.7rem;
+  color: #F3F3F4;
+  margin-top:13px;
+margin-left:0;
+}
+.linksContainer{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  /* border: 2px solid white; */
+  width: 76%;
+  padding:0px;
+  margin-left:3%;
+  margin-top:2%;
+}
