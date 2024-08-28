@@ -206,7 +206,7 @@ input[type="range"] {
   overflow: hidden;
   height: 20px;
   width: 200px;
-  cursor: pointer;
+  cursor:initial;
   border-radius: 10px; /* iOS */
 }
 

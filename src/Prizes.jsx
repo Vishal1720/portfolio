@@ -28,7 +28,7 @@ const Prizes = () => {
 
 
 </div>
-    <img src={prize} style={{width:'400px'}} alt="" /></div>
+    <img src={prize} style={{width:'495px',marginTop:'-60px'}} alt="" /></div>
     </>
   )
 }
