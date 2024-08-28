@@ -125,44 +125,49 @@ margin-left:0;
   width: 25rem;
 
 }
-#eduhead{
+#eduhead,#prizehead{
   margin-top:0%;font-size:64px;
   font-weight:20px;
   color: #F3F3F4;
   text-shadow: 2px 2px 2px black;
   width:80vw;
 }
-table{
+#education,#prizes,#eduhead,#prizehead{
+  background-color: #7a81ab;
+}
+#prizes{
+  display: flex;
+}
+
+.table{
   margin: auto ;
   margin-top:4%;
   margin-left:7%;
 }
-tr,td,th,table{
+.tr,.td,.th,.table{
   border: 3px solid rgb(236, 234, 234);
   border-collapse: collapse;
 }
-td,th{
+.td,.th{
   width: 190px;
   height: 90px;
   text-align: center;
   padding: 12px;
   font-size: 33px;
 }
-th{
+.th{
   background-color: rgb(33, 33, 52);
   color: aliceblue;
   
 }
-td{
+.td{
  color:antiquewhite;
   background-color: rgba(63, 63, 80, 0.96);
 }
 #introhead,#skills{
   margin-top: 0%;
 }
-#education,#prizes,#eduhead{
-  background-color: #7a81ab;
-}
+
 
 .marginplease{
   margin-left: 20vw;
@@ -264,4 +269,22 @@ input[type="range"] {
 
 ::-ms-tooltip { 
   display: none;
+}
+
+.table1,.td1,.tr1{
+  background-color: transparent;
+
+}
+
+.td2{
+  color:white;
+  font-weight: bolder;
+  font-size:2.2rem;
+  padding:6px;
+  width:max-content;
+  text-shadow:2px 2px 2px #2E1F27;
+  text-align: left;
+}
+.td1{
+  width: max-content;
 }
