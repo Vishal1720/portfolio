@@ -288,3 +288,9 @@ input[type="range"] {
 .td1{
   width: max-content;
 }
+@media only screen and (max-width: 768px) {
+  .subcomponent{
+    margin-left:0VW;
+    
+  }
+}
