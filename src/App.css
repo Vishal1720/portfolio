@@ -66,7 +66,10 @@ height:42px;
   background-color: #001A23;
   margin-top:0px;
 }
-
+#skillhead{
+  background-color:#001A23;
+  font-size:3rem;
+}
 #education,#prizes{
   background-color: #F3F3F4;
   color:black;
@@ -89,6 +92,7 @@ height:42px;
 #introhead{
   font-size: 50px;
   text-shadow: 1px 1px 1px black;
+  background-color: #001A23;
   text-align: center;
 }
 #homeicon{
@@ -125,14 +129,14 @@ margin-left:0;
   width: 25rem;
 
 }
-#eduhead,#prizehead{
+#eduhead,#prizehead,#prizehead2{
   margin-top:0%;font-size:64px;
   font-weight:20px;
   color: #F3F3F4;
   text-shadow: 2px 2px 2px black;
   width:80vw;
 }
-#education,#prizes,#eduhead,#prizehead{
+#education,#prizes,#eduhead,#prizehead,#prizehead2{
   background-color: #7a81ab;
 }
 #prizes{
@@ -288,6 +292,9 @@ input[type="range"] {
 .td1{
   width: max-content;
 }
+#achtable img{
+  width:5rem;
+}
 @media only screen and (max-width: 768px) {
   *{
     font-size:1rem;
@@ -432,5 +439,25 @@ input[type="range"]{
     height: 40px;
     background: #ddd;
   }
+  #prizehead{
+    background-color: #999;
+  }
+  h1{
+    background-color: #7a81ab;
+  }
+  #achtable img{
+    width:47%;
+  }
+  #achtable td{
+    font-size: 1.2rem;
+  }
+  #prizehead,#prizehead2{
+font-size: 1.5rem;
+margin-left: 0%;
+width: 100%;
+background-color: #7a81ab;
+  }
+  #prizehead{padding-top:2%}
+  #prizehead2{padding-bottom: 3%;}
   
 }
