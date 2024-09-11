@@ -15,8 +15,8 @@ const Skills = () => {
 <input type="range" value='76' readOnly  className='rangeStyle'></input>
 <label >PHP</label>
 <input type="range" value='81' readOnly  className='rangeStyle'></input>
-<label >Java</label>
-<input type="range" value='60' readOnly  className='rangeStyle'></input>
+<label className='hidden'>Java</label>
+<input type="range" value='60' readOnly  className='rangeStyle hidden'></input>
 <label className='hidden'>SQL</label>
 <input type="range" value='62' readOnly  className='rangeStyle hidden'></input>
 <label className='hidden'>Python</label>
