@@ -22,7 +22,9 @@ function Education(){
       
     </table>
             </div>
+            <div>
             <img src={studying} alt="studyingboy" id='studyingboy'></img>
+            </div>
         </div>
         </>
     );
