@@ -325,9 +325,7 @@ text-align: center;
     
 
   }
-  #nav{
-    display:none;
-  }
+  
   
  #char{
   width:60%;
@@ -336,7 +334,7 @@ text-align: center;
   #introhead{
 
  font-size:1.5rem;
- text-align: left;
+ text-align: center;
   }
   
   .tex{
@@ -459,5 +457,33 @@ background-color: #7a81ab;
   }
   #prizehead{padding-top:2%}
   #prizehead2{padding-bottom: 3%;}
+
+  #nav{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    min-width: 100%;
+   height: max-content;
+   position: absolute;
+   top:110%;
+   left: 0px; 
+  justify-content: center;
+}
+   
+  .linksContainer{
+display: none;
+
+  } 
+  #pfp{
+display: none;
+  }
+
+   .links{
+    background-color: #2E1F27; 
+z-index: 100;
+width: 100%;
+  }
+  #myname{display: none;
+  }
   
 }
